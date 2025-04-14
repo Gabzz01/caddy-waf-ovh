@@ -2,6 +2,19 @@
 
 A Caddy server image supercharged with the OVH & Coraza WAF plugins with tracing enabled.
 
+## OVH Wilcard setup
+
+See https://schh.medium.com/certbot-configuration-of-wildcard-certificate-with-dns-ovh-challenge-1ae6fc599751
+
+https://www.ovh.com/auth/api/createToken
+
+```
+GET /domain/zone/*
+PUT  /domain/zone/*
+POST  /domain/zone/*
+DELETE  /domain/zone/*
+```
+
 ## Usage
 
 Complex example leveraging :
